@@ -26,3 +26,4 @@ from .grouper import CorpusGrouper, ModeGrouper, YearGrouper
 from .pipeline import Pipeline
 from .slicer import LocalKeySlicer, NoteSlicer
 from .writer import TSVwriter
+from .plotter import BarPlotter
