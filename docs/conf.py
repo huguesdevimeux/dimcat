@@ -285,6 +285,8 @@ intersphinx_mapping = {
     "pyscaffold": ("https://pyscaffold.org/en/stable", None),
 }
 
-nb_kernel_rgx_aliases = {"*": "python3"}
+# Change the kernel used for all notebooks.
+# The backslash is there to avoid a python bug due to its poor handling of special chars in regex.
+nb_kernel_rgx_aliases = {"\*": "python3"}
 
 print(f"loading configurations for {project} {version} ...", file=sys.stderr)
