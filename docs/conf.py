@@ -285,4 +285,6 @@ intersphinx_mapping = {
     "pyscaffold": ("https://pyscaffold.org/en/stable", None),
 }
 
+nb_kernel_rgx_aliases = {"*": "python3"}
+
 print(f"loading configurations for {project} {version} ...", file=sys.stderr)
